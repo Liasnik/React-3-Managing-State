@@ -1,0 +1,308 @@
+.App {
+  /* text-align: center; */
+ 
+  background-color:whitesmoke;
+}
+.App-header {
+  padding-left: 20px;
+  background-color: #282c34aa;
+  min-height: 70px;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 1vmin);
+  color: white; 
+}
+.App-link {
+  color: #61dafb;
+}
+.ReactingToInput {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(220, 193, 193);
+}
+/* .section { 
+  border-bottom: 1px solid #aaa; 
+  padding: 20px; 
+} */
+
+h4 { color: #222; }
+
+body { margin: 0; }
+
+.Error { color: red; }
+
+.Success { 
+  color: green; 
+  width: '400px';
+}
+.noSuccess {
+  color:rgb(28, 90, 165);
+}
+.Bad {
+  color:rgb(255, 115, 0);
+}
+button {
+  min-width: 53px;
+  margin: 5px;
+  padding: 5px;
+}
+input { 
+  margin: 7px;
+  padding: 5px;
+  font-size: 18px 
+}
+.Challenges {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(229, 183, 160);
+  border-bottom: 1px solid #aaa;
+}
+.background {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+} 
+.background--active {
+  background: #a6b5ff;
+}
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.picture--active {
+  border: 5px solid #a6b5ff;
+}
+.State-Sructure {
+  border-bottom: 1px solid #aaa;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(103, 197, 198);
+  background-color: rgb(160, 228, 229);
+}
+.lesson-topic {
+  font-weight: 600;
+  margin-left: 40px;
+}
+.code {
+  white-space: pre-wrap;
+  background-color: whitesmoke;
+  margin: 20px 5px 20px 5px;
+  padding: 10px;
+  border-radius: 9px;
+  width:fit-content
+}
+.Height400 {
+  height: 400px;
+}
+.MarginTop60 {
+  margin-top: 60px;
+}
+
+.highlighted { background: #d2eaff; }
+
+label { display: flex; margin-bottom: 20px; }
+
+.Vue-vs-React {
+  margin: 5px;
+  background-color:rgb(207, 223, 223); 
+  text-align: center;
+}
+.blue {
+  color: blue
+}
+.orange {
+  color: orange
+}
+.violet {
+  color: darkviolet
+}
+.blue {
+  color: blue
+}
+.red {
+  color: red
+}
+.violet {
+  color: darkviolet
+}
+.blue {
+  color: blue
+}
+.orange {
+  color: orange
+}
+.green {
+  color:green
+}
+.VueReact {
+  height: 400px;
+  margin-top: 30px;
+  border-bottom: 1px solid #aaa;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(138, 170, 143);
+}
+.SharingStateBetween {
+  height: 530px;
+  border-bottom: 1px solid #aaa;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(170, 215, 248);
+}
+.panel {
+  padding: 0;
+  /* border: 1px solid #383838; */
+}
+.accordion {
+  width: 400px;
+  padding: 50px;
+  /* background-color: rgb(215, 229, 239); */
+}
+.open {
+  margin: 0;
+  padding: 10px;
+  background-color:#fcfcfc
+}
+.close {
+  padding: 10px;
+  margin: 10px;
+  background-color:rgb(118, 195, 250);
+}
+
+td {padding: 8px}
+
+.hover {
+  background: #ffffd8;
+  padding: 15px;
+}
+.counter {
+  width: 100px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.PresAndResState {
+  background-color:#a6b5ff;
+  border-bottom: 1px solid #aaa;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label {
+  display: block;
+  clear:both
+}
+
+.fancy {
+  border: 5px solid gold;
+  color: #ff6767;
+}
+
+.ScalingUp {
+  height: 400px;
+  background-color:#dec05f;
+  border-bottom: 1px solid #aaa;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #787878;
+}
+
+.fancy {
+  border: 4px dashed gold;
+}
+
+.chat,
+.contact-list {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  height: 183px;
+  width: 320px
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.liButton {
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.dubleDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+
+
+/* html.dark  */
+.sp-wrapper {
+  --sp-colors-accent:#056889;
+  --sp-colors-clickable: #999;
+  --sp-colors-disabled: #fff;
+  --sp-colors-error: #811e18;
+  --sp-colors-error-surface: #ffcdca;
+  --sp-colors-surface1: #16181d;
+  --sp-colors-surface2: #343a46;
+  --sp-syntax-color-plain: #fff;
+  --sp-syntax-color-comment: #757575;
+  --sp-syntax-color-keyword: #77b7d7;
+  --sp-syntax-color-tag: #dfab5c;
+  --sp-syntax-color-punctuation: #fff;
+  --sp-syntax-color-definition: #86d9ca;
+  --sp-syntax-color-property: #77b7d7;
+  --sp-syntax-color-static: #c64640;
+  --sp-syntax-color-string: #977cdc;
+}
+
+.sp-colors-accent { 
+  color:var( --sp-colors-accent)
+}
+
+.accent {color:var(--sp-colors-accent)}
+.clickable {color:var(--sp-colors-clickable)}
+.disabled {color:var(--sp-colors-disabled)}
+.error{color:var(--sp-colors-error)}
+.error-surface{color:var(--sp-colors-error-surface)}
+.surface1{color:var(--sp-colors-surface1)}
+.surface2{color:var(--sp-colors-surface2)}
+.plain{color:var(--sp-syntax-color-plain)}
+.comment{color:var( --sp-syntax-color-comment)}
+/* --sp-syntax-color-keyword: #77b7d7;
+--sp-syntax-color-tag: #dfab5c;
+--sp-syntax-color-punctuation: #fff;
+--sp-syntax-color-definition: #86d9ca;
+--sp-syntax-color-property: #77b7d7;
+--sp-syntax-color-static: #c64640;
+--sp-syntax-color-string: #977cdc; */
