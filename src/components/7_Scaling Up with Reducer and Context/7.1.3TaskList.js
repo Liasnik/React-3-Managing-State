@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { useTasks, useTasksDispatch } from './7.1.1TasksProvider.js';
+import { useState } from 'react'
+import { useTasks, useTasksDispatch } from './7.1.1TasksProvider.js'
 
 export default function TaskList() {
-  const tasks = useTasks();
+  const tasks = useTasks()
   return (
     <ul>
       {tasks.map(task => (
@@ -11,11 +11,11 @@ export default function TaskList() {
         </li>
       ))}
     </ul>
-  );
+  )
 }
 
 function Task({ task }) {
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(false)
   const dispatch = useTasksDispatch();
   let taskContent;
   if (isEditing) {
